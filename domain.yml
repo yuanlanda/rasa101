@@ -1,0 +1,28 @@
+slots:
+  person:
+    type: text
+
+intents:
+  - greet
+  - affirm
+  - deny
+  - inform_person
+
+responses:
+  utter_greet:
+  - text: "Let’s make an appointment."
+  
+  utter_wh_person:
+  - text: "Who are you meeting with?"
+
+  utter_yn_correct:
+  - text: "Is this correct?"
+
+  utter_inform:
+  - text: |
+      Here is your appointment.
+      You are meeting {person} on {date} at {time}.
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false
