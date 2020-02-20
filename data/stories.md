@@ -13,7 +13,3 @@
   - slot{"person": null}
   - utter_wh_person
 
-## incorrect  
-* 
-  - slot{"person": null}
-  - utter_wh_person
