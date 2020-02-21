@@ -8,12 +8,7 @@
   - utter_inform
   - utter_yn_correct
   
-## incorrect  
+## incorrect
 * deny
-  - slot{"person": null}
-  - utter_wh_person
-
-## incorrect  
-* 
   - slot{"person": null}
   - utter_wh_person
