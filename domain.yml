@@ -8,7 +8,13 @@ intents:
   - deny
   - inform_person
 
-responses:
+actions:
+  - utter_greet
+  - utter_wh_person
+  - utter_yn_correct
+  - utter_inform
+
+templates:
   utter_greet:
   - text: "Let’s make an appointment."
   
