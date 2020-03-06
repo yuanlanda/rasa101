@@ -25,4 +25,17 @@
 - [Vlad Maraev](person)
 - [Staffan Larsson](person)
 - [Alex Berman](person)
+- [Yolanda](person)
 
+## intent:inform_date
+- [Monday](date)
+- [Tuesday](date)
+- [Wednesday](date)
+- [Thursday](date)
+- [Friday](date)
+
+## intent:inform_time
+- [Nine](time)
+- [Ten](time)
+- [13](time)
+- [15](time)

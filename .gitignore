@@ -1,0 +1,12 @@
+# ignore folders
+models/
+__pycache__/
+
+#ignore files
+*.m4a
+ngrok
+gactions
+action.json
+.DS_Store
+ga_connector.py
+creds.data

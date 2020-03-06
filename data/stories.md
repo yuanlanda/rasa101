@@ -5,10 +5,23 @@
 
 ## inform
 * inform_person{"person":"Vlad Maraev"}
-  - utter_inform
   - utter_yn_correct
+* affirm OR thankyou
+  - utter_wh_date
+* inform_date{"date":"Monday"}
+  - utter_yn_correct
+* affirm OR thankyou
+  - utter_wh_time
+* inform_time{"time":"Nine"}
+  - utter_yn_correct
+* affirm OR thankyou
+  - utter_inform
+  - utter_bye
   
 ## incorrect
 * deny
   - slot{"person": null}
-  - utter_wh_person
+  - slot{"date": null}
+  - slot{"time": null}
+  - utter_bye
+
