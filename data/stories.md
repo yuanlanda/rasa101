@@ -6,15 +6,15 @@
 ## inform
 * inform_person{"person":"Vlad Maraev"}
   - utter_yn_correct
-* affirm OR thankyou
+* affirm
   - utter_wh_date
 * inform_date{"date":"Monday"}
   - utter_yn_correct
-* affirm OR thankyou
+* affirm
   - utter_wh_time
-* inform_time{"time":"Nine"}
+* inform_time{"time":"09:00"}
   - utter_yn_correct
-* affirm OR thankyou
+* affirm
   - utter_inform
   - utter_bye
   

@@ -33,9 +33,10 @@
 - [Wednesday](date)
 - [Thursday](date)
 - [Friday](date)
+- [Tomorrow](date)
 
 ## intent:inform_time
-- [Nine](time)
-- [Ten](time)
-- [13](time)
-- [15](time)
+- [09:00](time)
+- [10:00](time)
+- [13:00](time)
+- [15:00](time)
